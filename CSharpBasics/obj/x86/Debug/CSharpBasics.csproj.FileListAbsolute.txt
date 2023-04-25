@@ -1,0 +1,4 @@
+C:\CSharpBasics\CSharpBasics\bin\Debug\CSharpBasics.exe
+C:\CSharpBasics\CSharpBasics\bin\Debug\CSharpBasics.pdb
+C:\CSharpBasics\CSharpBasics\obj\x86\Debug\CSharpBasics.exe
+C:\CSharpBasics\CSharpBasics\obj\x86\Debug\CSharpBasics.pdb
