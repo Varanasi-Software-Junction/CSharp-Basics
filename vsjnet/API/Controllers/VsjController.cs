@@ -12,10 +12,11 @@ namespace API.Controllers
             return "Hello ";
         }
         
-        [HttpGet("{name}")]
+        [HttpGet("{name}"),HttpPost("{name}")]
         public string SayHello(string name)
         {
             return "Hello " + name;
         }
+    
     }
 }
