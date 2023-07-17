@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using API.Data;
 using API.Entities;
+using Microsoft.EntityFrameworkCore;
+
 namespace API.Controllers
 {
     [ApiController]
@@ -14,9 +16,9 @@ namespace API.Controllers
 
         }
         [HttpGet]
-        public ActionResult<List<Book>> GetBooks()
+        public async Task< ActionResult<List<Book>>> GetBooks()
         {
-        var books=context.Books.ToList();
+        var books=await context.Books.ToListAsync();
         return books;
         }
 
