@@ -41,6 +41,9 @@ public partial class deposit : System.Web.UI.Page
     {
         try
         {
+            if (Convert.ToInt32(txtAmount.Text) <= 0)
+                throw new Exception("Invalid Amount");
+
             DataSet1TableAdapters.accountsTableAdapter da = new DataSet1TableAdapters.accountsTableAdapter();
             da.deposit(Convert.ToInt32(txtAmount.Text), Convert.ToInt32(txtAccountNo.Text));
             lbl.Text = "Deposited";
