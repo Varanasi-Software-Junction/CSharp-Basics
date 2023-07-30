@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HBzR4N6V2Y1iAr/V7A+dYb1FVUgLJGNUneWrVr5SX786kEgR+thQBfGG93lt1GVM4XZtCroEOZbHE5Ftw34reg==",
+  "dgSpecHash": "DdInUeInKBNiHS3LFuWG9M4QdpBn+xh0jDMs2bmj8/KkUwef4ONcBFRhAEIQpD8UFEYtsCOp3qub5TuPi3V7hQ==",
   "success": true,
-  "projectFilePath": "C:\\CSharpBasics\\vsjnet\\API\\API.csproj",
+  "projectFilePath": "C:\\CSharpBasics\\vsjnet\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
